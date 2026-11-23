@@ -1,0 +1,150 @@
+{
+  "version": "0.4",
+  "title": "APR Group - Header & Footer Elementor Template",
+  "type": "section",
+  "content": [
+    {
+      "id": "apr_sec_header_top",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "background_background": "classic",
+        "background_color": "#0a1f3d",
+        "padding": { "unit": "px", "top": "8", "right": "15", "bottom": "8", "left": "15", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "apr_col_top_inner",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "apr_wid_top_text",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; color:#cbd5e1; font-size:13px;\"><div>📍 सिद्धि विनायक कॉलोनी, राजपुरा फेज 1, भदोही (UP 221401) | 📞 +91 63921 99296</div><div>⏰ सुबह 9:00 से शाम 7:00 बजे तक</div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apr_sec_header_main",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": { "horizontal": 0, "vertical": 3, "blur": 15, "spread": 0, "color": "rgba(15,23,42,0.08)" },
+        "padding": { "unit": "px", "top": "12", "right": "20", "bottom": "12", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "apr_col_logo",
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "apr_wid_logo_html",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<a href=\"https://aprgroupbhadohi.com/\" style=\"text-decoration:none; display:flex; align-items:center; gap:8px;\"><strong style=\"font-size:24px; color:#0a1f3d;\">APR <span style=\"color:#009e8c;\">GROUP</span></strong><span style=\"font-size:11px; color:#64748b;\">OF COMPANY</span></a>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "apr_col_menu",
+          "elType": "column",
+          "settings": { "_column_size": 55 },
+          "elements": [
+            {
+              "id": "apr_wid_nav_html",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<nav style=\"display:flex; justify-content:center; gap:16px; font-weight:600; font-size:14px;\"><a href=\"#home\" style=\"color:#0a1f3d; text-decoration:none;\">होम</a><a href=\"#about\" style=\"color:#0a1f3d; text-decoration:none;\">हमारे बारे में</a><a href=\"#projects\" style=\"color:#0a1f3d; text-decoration:none;\">प्रोजेक्ट्स</a><a href=\"#calculator\" style=\"color:#0a1f3d; text-decoration:none;\">कैलकुलेटर</a><a href=\"#reviews\" style=\"color:#0a1f3d; text-decoration:none;\">रिव्यूज</a><a href=\"#contact\" style=\"color:#0a1f3d; text-decoration:none;\">सम्पर्क</a></nav>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "apr_col_cta",
+          "elType": "column",
+          "settings": { "_column_size": 20 },
+          "elements": [
+            {
+              "id": "apr_wid_header_btn",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<a href=\"https://wa.me/916392199296\" target=\"_blank\" style=\"background:#25d366; color:#fff; padding:10px 18px; border-radius:6px; font-weight:700; text-decoration:none; display:inline-block;\">💬 WhatsApp</a>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apr_sec_footer_main",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "background_background": "classic",
+        "background_color": "#0a1f3d",
+        "padding": { "unit": "px", "top": "50", "right": "20", "bottom": "25", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "apr_col_foot_1",
+          "elType": "column",
+          "settings": { "_column_size": 40 },
+          "elements": [
+            {
+              "id": "apr_wid_foot_about",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<h3 style=\"color:#fff; font-size:20px; font-weight:800; margin-bottom:12px;\">APR GROUP OF COMPANY</h3><p style=\"color:#94a3b8; font-size:14px; line-height:1.7;\">भदोही और ज्ञानपुर में आवासीय व व्यावसायिक प्लॉट्स। सिद्धि विनायक कॉलोनी, राजपुरा फेज 1, भदोही।</p><p style=\"color:#cbd5e1; font-size:14px;\">📞 +91 63921 99296 | 🌐 aprgroupbhadohi.com</p>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "apr_col_foot_2",
+          "elType": "column",
+          "settings": { "_column_size": 30 },
+          "elements": [
+            {
+              "id": "apr_wid_foot_links",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<h4 style=\"color:#fff; font-size:16px; margin-bottom:12px;\">महत्वपूर्ण प्रोजेक्ट्स</h4><ul style=\"list-style:none; padding:0; color:#94a3b8; font-size:13.5px; line-height:2;\"><li>• राजपुरा फेज 1 (₹2500/sqft)</li><li>• कांशीरायपुर (₹2300/sqft)</li><li>• उगापुर भदोही (₹1300/sqft)</li><li>• गोसाईं बाज़ार ज्ञानपुर (₹1000/sqft)</li></ul>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "apr_col_foot_3",
+          "elType": "column",
+          "settings": { "_column_size": 30 },
+          "elements": [
+            {
+              "id": "apr_wid_foot_actions",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<h4 style=\"color:#fff; font-size:16px; margin-bottom:12px;\">त्वरित सहायता</h4><a href=\"tel:+916392199296\" style=\"display:block; background:#1a6fc4; color:#fff; padding:10px 16px; border-radius:6px; font-weight:700; text-decoration:none; margin-bottom:10px; text-align:center;\">📞 कॉल करें</a><a href=\"https://wa.me/916392199296\" target=\"_blank\" style=\"display:block; background:#25d366; color:#fff; padding:10px 16px; border-radius:6px; font-weight:700; text-decoration:none; text-align:center;\">💬 WhatsApp करें</a>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

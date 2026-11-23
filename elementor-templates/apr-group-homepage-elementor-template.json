@@ -1,0 +1,322 @@
+{
+  "version": "0.4",
+  "title": "APR Group Homepage - Plots in Bhadohi (Official)",
+  "type": "page",
+  "content": [
+    {
+      "id": "apr_sec_hero",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "background_background": "gradient",
+        "background_color": "#0a1f3d",
+        "background_color_b": "#173d74",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": { "unit": "deg", "size": 135 },
+        "padding": {
+          "unit": "px",
+          "top": "90",
+          "right": "20",
+          "bottom": "90",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "apr_col_hero_1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 60,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "apr_wid_badge",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"display:inline-block; background:rgba(255,255,255,0.15); border:1px solid rgba(255,255,255,0.25); color:#2dd4bf; padding:6px 16px; border-radius:50px; font-weight:700; font-size:13px; margin-bottom:16px;\">🌟 भदोही का सबसे भरोसेमंद रियल एस्टेट ग्रुप</div>"
+              }
+            },
+            {
+              "id": "apr_wid_hero_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "भदोही में अपने सपनों का प्लॉट पाएं — उचित रेट व तत्काल रजिस्ट्री",
+                "header_size": "h1",
+                "align": "left",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 44 },
+                "typography_font_weight": "800",
+                "typography_line_height": { "unit": "em", "size": 1.2 }
+              }
+            },
+            {
+              "id": "apr_wid_hero_desc",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:#e2e8f0; font-size:16px; line-height:1.7;\">APR GROUP OF COMPANY आपके लिए लाया है भदोही व ज्ञानपुर के प्रमुख लोकेशन्स में आवासीय व व्यावसायिक प्लॉट्स। चौड़े 25-30 फीट रास्ते, बिजली, पानी और 100% स्पष्ट टाइटल के साथ तत्काल रजिस्ट्री।</p>"
+              }
+            },
+            {
+              "id": "apr_wid_hero_cta",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"display:flex; gap:12px; flex-wrap:wrap; margin-top:20px;\"><a href=\"#calculator\" style=\"background:#009e8c; color:#fff; padding:14px 26px; border-radius:8px; font-weight:700; text-decoration:none; display:inline-block;\">🧮 प्लॉट कैलकुलेटर देखें</a><a href=\"https://wa.me/916392199296?text=Hello%20APR%20Group,%20I%20am%20interested%20in%20plots\" target=\"_blank\" style=\"background:#25d366; color:#fff; padding:14px 26px; border-radius:8px; font-weight:700; text-decoration:none; display:inline-block;\">💬 WhatsApp इन्क्वायरी</a></div>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "apr_col_hero_2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 40,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "apr_wid_hero_card",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"background:#ffffff; border-radius:18px; padding:28px; box-shadow:0 20px 40px rgba(0,0,0,0.3); text-align:left;\"><h3 style=\"font-size:20px; font-weight:800; color:#0a1f3d; margin-bottom:8px;\">🚗 निःशुल्क साइट विज़िट बुक करें</h3><p style=\"font-size:13px; color:#64748b; margin-bottom:18px;\">गाड़ी की सुविधा के साथ अपनी पसंदीदा साइट देखने आएं।</p><form action=\"https://wa.me/916392199296\" target=\"_blank\"><input type=\"text\" name=\"text\" placeholder=\"अपना नाम और फोन नंबर लिखें\" required style=\"width:100%; height:46px; border:1px solid #cbd5e1; border-radius:6px; padding:0 12px; margin-bottom:12px; font-size:14px;\"><button type=\"submit\" style=\"width:100%; height:48px; background:#1a6fc4; color:#fff; border:none; border-radius:6px; font-weight:700; cursor:pointer;\">विज़िट हेतु सम्पर्क करें →</button></form></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apr_sec_stats",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": { "unit": "px", "top": "40", "right": "20", "bottom": "40", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "apr_col_stat_1",
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "apr_wid_stat_1",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "6+ प्राइम लोकेशन्स",
+                "description_text": "राजपुरा, कांशीरायपुर, उगापुर, चौरी, ज्ञानपुर",
+                "view": "stacked",
+                "primary_color": "#e0f2fe",
+                "icon_color": "#1a6fc4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "apr_col_stat_2",
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "apr_wid_stat_2",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "₹1,000 / Sq. Ft.",
+                "description_text": "शुरुआती सबसे किफायती रेट",
+                "view": "stacked",
+                "primary_color": "#ccfbf1",
+                "icon_color": "#009e8c"
+              }
+            }
+          ]
+        },
+        {
+          "id": "apr_col_stat_3",
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "apr_wid_stat_3",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "100% फ्रीहोल्ड",
+                "description_text": "तत्काल रजिस्ट्री व दाखिल खारिज",
+                "view": "stacked",
+                "primary_color": "#fef3c7",
+                "icon_color": "#d97706"
+              }
+            }
+          ]
+        },
+        {
+          "id": "apr_col_stat_4",
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            {
+              "id": "apr_wid_stat_4",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "500+ संतुष्ट ग्राहक",
+                "description_text": "संतुष्ट परिवार व निवेशक",
+                "view": "stacked",
+                "primary_color": "#ede9fe",
+                "icon_color": "#7c3aed"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apr_sec_projects_heading",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "background_background": "classic",
+        "background_color": "#f8fafc",
+        "padding": { "unit": "px", "top": "70", "right": "20", "bottom": "20", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "apr_col_proj_head",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "apr_wid_proj_head",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "APR GROUP - प्रमुख प्रोजेक्ट्स व रेट लिस्ट",
+                "align": "center",
+                "title_color": "#0a1f3d"
+              }
+            },
+            {
+              "id": "apr_wid_proj_sub",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center; color:#64748b; font-size:16px;\">भदोही के सभी 6 प्रमुख रेजिडेंशियल व कमर्शियल प्लॉट्स की सूची</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apr_sec_projects_grid",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "background_background": "classic",
+        "background_color": "#f8fafc",
+        "padding": { "unit": "px", "top": "10", "right": "20", "bottom": "70", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "apr_col_p1",
+          "elType": "column",
+          "settings": { "_column_size": 33.33 },
+          "elements": [
+            {
+              "id": "apr_wid_p1",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"background:#fff; border:1px solid #e2e8f0; border-radius:14px; padding:22px; box-shadow:0 6px 18px rgba(0,0,0,0.06);\"><span style=\"background:#e11d48; color:#fff; padding:4px 10px; border-radius:20px; font-size:11px; font-weight:700;\">फ्लैगशिप प्रोजेक्ट</span><h3 style=\"font-size:19px; color:#0a1f3d; margin:10px 0 6px 0;\">राजपुरा फेज 1</h3><p style=\"font-size:13px; color:#64748b;\">सिद्धि विनायक कॉलोनी, राजपुरा, भदोही</p><div style=\"font-size:24px; font-weight:800; color:#009e8c; margin:12px 0;\">₹2,500 <span style=\"font-size:14px; color:#64748b;\">/ Sq. Ft.</span></div><p style=\"font-size:13px; color:#334155;\">🛣️ 30 फीट चौड़ा पक्का रोड<br>⚡ ट्रांसफार्मर व बिजली पोल<br>📜 तत्काल रजिस्ट्री</p><a href=\"https://wa.me/916392199296?text=Interested%20in%20Rajpura%20Phase%201\" target=\"_blank\" style=\"display:block; text-align:center; background:#25d366; color:#fff; padding:10px; border-radius:6px; font-weight:700; text-decoration:none; margin-top:14px;\">WhatsApp पर सम्पर्क करें</a></div>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "apr_col_p2",
+          "elType": "column",
+          "settings": { "_column_size": 33.33 },
+          "elements": [
+            {
+              "id": "apr_wid_p2",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"background:#fff; border:1px solid #e2e8f0; border-radius:14px; padding:22px; box-shadow:0 6px 18px rgba(0,0,0,0.06);\"><span style=\"background:#009e8c; color:#fff; padding:4px 10px; border-radius:20px; font-size:11px; font-weight:700;\">हाई एप्रिसिएशन</span><h3 style=\"font-size:19px; color:#0a1f3d; margin:10px 0 6px 0;\">कांशीरायपुर टाउनशिप</h3><p style=\"font-size:13px; color:#64748b;\">कांशीरायपुर, नियर भदोही लिंक रोड</p><div style=\"font-size:24px; font-weight:800; color:#009e8c; margin:12px 0;\">₹2,300 <span style=\"font-size:14px; color:#64748b;\">/ Sq. Ft.</span></div><p style=\"font-size:13px; color:#334155;\">🛣️ 25 फीट चौड़ा रोड<br>⚡ बिजली व पानी तैयार<br>📜 100% फ्रीहोल्ड</p><a href=\"https://wa.me/916392199296?text=Interested%20in%20Kanshraipur\" target=\"_blank\" style=\"display:block; text-align:center; background:#25d366; color:#fff; padding:10px; border-radius:6px; font-weight:700; text-decoration:none; margin-top:14px;\">WhatsApp पर सम्पर्क करें</a></div>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "apr_col_p3",
+          "elType": "column",
+          "settings": { "_column_size": 33.33 },
+          "elements": [
+            {
+              "id": "apr_wid_p3",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"background:#fff; border:1px solid #e2e8f0; border-radius:14px; padding:22px; box-shadow:0 6px 18px rgba(0,0,0,0.06);\"><span style=\"background:#1a6fc4; color:#fff; padding:4px 10px; border-radius:20px; font-size:11px; font-weight:700;\">किफायती व बेस्ट वैल्यू</span><h3 style=\"font-size:19px; color:#0a1f3d; margin:10px 0 6px 0;\">गोसाईं बाज़ार (ज्ञानपुर)</h3><p style=\"font-size:13px; color:#64748b;\">गोसाईं बाज़ार, जिला मुख्यालय के पास</p><div style=\"font-size:24px; font-weight:800; color:#009e8c; margin:12px 0;\">₹1,000 <span style=\"font-size:14px; color:#64748b;\">/ Sq. Ft.</span></div><p style=\"font-size:13px; color:#334155;\">🛣️ 25 फीट चौड़ा रास्ता<br>⚡ बिजली पोल उपलब्ध<br>📜 सबसे कम रेट में सुरक्षित ज़मीन</p><a href=\"https://wa.me/916392199296?text=Interested%20in%20Gosai%20Bazar\" target=\"_blank\" style=\"display:block; text-align:center; background:#25d366; color:#fff; padding:10px; border-radius:6px; font-weight:700; text-decoration:none; margin-top:14px;\">WhatsApp पर सम्पर्क करें</a></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apr_sec_contact_embed",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "background_background": "classic",
+        "background_color": "#0a1f3d",
+        "padding": { "unit": "px", "top": "60", "right": "20", "bottom": "60", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "apr_col_cnt_1",
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "id": "apr_wid_cnt_info",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"color:#fff; text-align:left;\"><h2 style=\"font-size:28px; font-weight:800; color:#fff; margin-bottom:12px;\">APR GROUP OF COMPANY</h2><p style=\"color:#cbd5e1; font-size:15px; line-height:1.7;\">📍 <strong>पता:</strong> सिद्धि विनायक कॉलोनी, राजपुरा फेज 1, भदोही (UP 221401)<br>📞 <strong>फोन:</strong> +91 63921 99296<br>🌐 <strong>वेबसाइट:</strong> aprgroupbhadohi.com</p><div style=\"margin-top:20px;\"><a href=\"tel:+916392199296\" style=\"background:#1a6fc4; color:#fff; padding:12px 24px; border-radius:6px; text-decoration:none; font-weight:700; display:inline-block; margin-right:10px;\">📞 तुरंत कॉल करें</a><a href=\"https://wa.me/916392199296\" target=\"_blank\" style=\"background:#25d366; color:#fff; padding:12px 24px; border-radius:6px; text-decoration:none; font-weight:700; display:inline-block;\">💬 WhatsApp</a></div></div>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "apr_col_cnt_2",
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "id": "apr_wid_map",
+              "elType": "widget",
+              "widgetType": "google_maps",
+              "settings": {
+                "address": "Bhadohi, Uttar Pradesh, India",
+                "zoom": { "size": 14 },
+                "height": { "size": 260 }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
